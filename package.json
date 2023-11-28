@@ -25,7 +25,12 @@
     "eslint": "^8.38.0",
     "typescript": "^5.1.6",
     "vite": "^5.0.0",
+    "vite-plugin-inspect": "^0.8.0",
     "vite-tsconfig-paths": "^4.2.1"
+  },
+  "resolutions": {
+    "@remix-run/dev": "file:/home/hiroshi/code/others/remix/packages/remix-dev",
+    "@remix-run/server-runtime": "file:/home/hiroshi/code/others/remix/packages/remix-server-runtime"
   },
   "engines": {
     "node": ">=18.0.0"
