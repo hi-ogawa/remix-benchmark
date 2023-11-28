@@ -1,3 +1,13 @@
+Benchmark for https://github.com/remix-run/remix/pull/8113
+
+```sh
+git # create 100 copies of app/routes/pageXXXX.tsx from misc/kentcdodds-blog.tsx
+node misc/generate-bench.mjs
+pnpm dev
+```
+
+---
+
 # templates/unstable-vite
 
 ⚠️ Remix support for Vite is unstable and not recommended for production.

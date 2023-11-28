@@ -10,16 +10,16 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@remix-run/node": "0.0.0-nightly-8c42697-20231122",
-    "@remix-run/react": "0.0.0-nightly-8c42697-20231122",
-    "@remix-run/serve": "0.0.0-nightly-8c42697-20231122",
+    "@remix-run/node": "2.3.1",
+    "@remix-run/react": "2.3.1",
+    "@remix-run/serve": "2.3.1",
     "isbot": "^3.6.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@remix-run/dev": "0.0.0-nightly-8c42697-20231122",
-    "@remix-run/eslint-config": "0.0.0-nightly-8c42697-20231122",
+    "@remix-run/dev": "2.3.1",
+    "@remix-run/eslint-config": "2.3.1",
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
     "eslint": "^8.38.0",
@@ -29,8 +29,8 @@
     "vite-tsconfig-paths": "^4.2.1"
   },
   "resolutions": {
-    "@remix-run/dev": "file:/home/hiroshi/code/others/remix/packages/remix-dev",
-    "@remix-run/server-runtime": "file:/home/hiroshi/code/others/remix/packages/remix-server-runtime"
+    "x@remix-run/dev": "file:/home/hiroshi/code/others/remix/packages/remix-dev",
+    "x@remix-run/server-runtime": "file:/home/hiroshi/code/others/remix/packages/remix-server-runtime"
   },
   "engines": {
     "node": ">=18.0.0"
