@@ -6,3 +6,5 @@ node_modules
 .env
 
 /app/routes/page*.tsx
+/app/routes/many-components.tsx
+/app/components/component*.tsx
